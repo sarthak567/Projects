@@ -1,3 +1,6 @@
+#Tested in ubuntu 
+#check for "winsound module" of python to generate buzz in windows os
+
 from time import *
 import subprocess
 from os import *
@@ -7,12 +10,14 @@ def buzz(total_interval):
     t_end = time() + 0.5 * 60  # play the alarm for 30 sec
     while time() < t_end:
         subprocess.call(['/usr/bin/canberra-gtk-play','--id','desktop-logout'])
+        #'/usr/bin/canberra-gtk-play' will play sound from the current sound theme.
+        #Check ls /usr/share/sounds/ubuntu/stereo to see which sounds are supported by ubuntu 
 
 def setAlarm():
     print("This clock uses 24-hr format")
     total_sec = 0
     count = 0
-    hr = int(input("Enter hour:"))
+    hr = int(input("Enter hour(in 24hr-format):"))
     mi = int(input("Enter minute:"))
 
     if(hr >= 24 or hr < 0 or mi >=60 or mi < 0):
