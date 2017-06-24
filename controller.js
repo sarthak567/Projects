@@ -2,36 +2,36 @@ var app = angular.module('movieModule', []);
 app.controller('movieController', function ($scope) {
     $scope.movies = [
         {
-            image: "images/captainamerica.jpg",
-            moviename: "CAPTAIN AMERICA",
+            image: "images/img1.jpg", //provide own image 
+            moviename: "abc",
             like: 0,
             dislike: 0,
             notseen: 0
         },
         {
-            image: "images/martian.jpg",
-            moviename: "MARTIAN",
+            image: "images/img2.jpg", 
+            moviename: "newmovie",
             like: 0,
             dislike: 0,
             notseen: 0
         },
         {
-            image: "images/thor.jpg",
-            moviename: "THOR",
+            image: "images/img3.jpg",
+            moviename: "check it",
             like: 0,
             dislike: 0,
             notseen: 0
         },
         {
-            image: "images/wonderwoman.jpg",
-            moviename: "WONDER WOMAN",
+            image: "images/img4.jpg",
+            moviename: "another movie",
             like: 0,
             dislike: 0,
             notseen: 0
         },
         {
-            image: "images/batmanvssuperman.jpg",
-            moviename: "BATMAN VS SUPERMAN",
+            image: "images/img5.jpg",
+            moviename: "final movie",
             like: 0,
             dislike: 0,
             notseen: 0
