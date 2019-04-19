@@ -1,8 +1,8 @@
-### 1.Alarm Clock :- 
-    This is a simple project for creating an alarm clock(in 24-hr format).
+<h3> Alarm Clock </h3>
+<p> This is a simple project for creating an alarm clock(in 24-hr format). </p>
     
-### 2.Use of Angular controller :-
-      Using angular controller provide like/dislike for a movie.
+<h3> Wallpaper Change </h3>
+<p> Simple python program to change desktop wallpaper after a scheduled interval in windows 10.</p>
        
     
    
