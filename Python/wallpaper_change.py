@@ -8,7 +8,7 @@ def is_img_file(f):
     return f.endswith('jpg') or f.endswith('png') or f.endswith('jpeg')
 
 def job():
-    wallpaper_dir = "D:\\Sarthak_S\\Wallpapers"
+    wallpaper_dir = "path to folder containing wallpaper"
 
     img_files = os.listdir(wallpaper_dir)
     img_files = list(filter(is_img_file, img_files))
